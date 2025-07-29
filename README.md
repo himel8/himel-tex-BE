@@ -1,9 +1,16 @@
+# HIMEL TEX BACK-END
+
+A brief description of what this project does and who it's for
+
 ## API Reference
 
 #### Create Buyer API
 
-```http
+```bash
   POST /api/v1/users/buyer
+```
+
+```http
 
   {
   "fullName": "himel",
@@ -17,9 +24,11 @@
 
 #### Create Buyer API
 
-```http
+```bash
   POST /api/v1/users/seller
+```
 
+```http
   {
   "fullName": "himel",
   "address": "borobag",
@@ -32,3 +41,9 @@
   ]
 }
 ```
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Nest, Typeorm, Postgress
